@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+}
+.container{
+    height:900px;
+    width:100%;
+    background:white;
+}
+.headsection{
+    margin-top:0;
+    height:70px;
+    width:100%;
+    background:red;
+
+}
+.logo{
+    position:absolute;
+    top:3px;
+    left:70px;
+    height:60px;
+    width:60px;
+    background:white;
+    color:red;
+    font-weight:40px;
+    font-size:40px;
+    border-radius:50px;
+    text-align:center;
+}
+.login{
+    position:absolute;
+    top:18px;
+    right:270px;
+    background:none;
+    color:white;
+    font-size:15px;
+    font-weight:15px;
+    text-align:center;
+}
+.signup{
+    position:absolute;
+    top:6px;
+    right:40px;
+    height:45px;
+    width:200px;
+    background:none;
+    border:1px solid white;
+    color:white;
+    text-align:center;
+}
+.innercontainer{
+    position:relative;
+    height:500px;
+    width:1000px;
+    background:white;
+    margin:auto;
+    margin-top:40px;
+}
+.imagecontainer{
+    width:1000px;
+    height:350px;
+    background:url(foodimage2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.dummy{
+    position:absolute;
+    top:300px;
+    right:90px;
+    height:30px;
+    width:200px;
+    text-align:center;
+    background: white;
+}
+.name{
+    font-weight:50px;
+    font-size:40px;
+}
+.number{
+    color:tomato;
+}
+.empty{
+    height:2px;
+    width:1000px;
+    background: darkgrey;
+}
+
